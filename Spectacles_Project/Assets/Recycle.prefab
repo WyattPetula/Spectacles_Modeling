@@ -1,0 +1,61 @@
+- !<ObjectPrefab/4e9455a5-5a4d-4946-b6f4-c9aef9d07ee6>
+  PackagePath: ""
+  objects:
+    - !<own> 5204a469-9c74-4130-8ae2-74f58898afe0
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/097af3e2-1406-46f0-935f-257abf142ce3>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder/00000000-0000-0000-0000-000000000000>
+    Axis: Y
+    Length: 10.000000
+    Radius: 6.000000
+  Matter: !<reference> d7a63175-758b-45d4-a856-cc4fff77502b
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/5204a469-9c74-4130-8ae2-74f58898afe0>
+  PrefabRemaps:
+    []
+  Name: Recycle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 30.000000, y: 4.000000, z: 350.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aea1ca5f-d67e-4562-984a-494d8c1dde8d
+    - !<own> 097af3e2-1406-46f0-935f-257abf142ce3
+- !<RenderMeshVisual/aea1ca5f-d67e-4562-984a-494d8c1dde8d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6322d68c-04a7-403f-9f8a-0f823eba7250
+  Mesh: !<reference> 7725fd2b-afe7-4880-b070-e8f7dfd354f1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

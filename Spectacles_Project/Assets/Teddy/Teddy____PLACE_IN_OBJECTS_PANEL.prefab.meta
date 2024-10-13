@@ -1,0 +1,108 @@
+- !<AssetImportMetadata/3acf7430-38c5-4ae8-9b0c-02bc1ca3a83b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d4070f9e-474e-4313-9257-c8320b322de3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d4070f9e-474e-4313-9257-c8320b322de3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> f857adcd-6e22-4fea-a5d9-6b0e4e7d2606
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3355c83d-8212-4e49-86a0-fca348fac7bf>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0f510007-1d9e-4fee-b08c-030c2587f54b>
+  PrefabRemaps:
+    []
+  Name: teddy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac07da88-161a-477b-b8d0-6e2f6bbdce5a
+  Components:
+    []
+- !<RenderMeshVisual/3e283716-bcbd-4664-ad49-e069e81930be>
+  PrefabRemaps:
+    []
+  Name: 0009_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d7eed06-1793-4320-a2e9-8fec5b2d523b
+  Mesh: !<reference> d0f9684a-e108-482f-bcda-5d0243d01b8f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/54a7f1b5-cefb-48d2-9895-151c7fe383b5>
+  PackagePath: Teddy____PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> 999dfd75-eeac-48ec-80d6-959c47aeafab
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5dbbe5c9-fa29-4e6b-ac5f-e9d4697ae6c1>
+  PrefabRemaps:
+    []
+  Name: teddy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e283716-bcbd-4664-ad49-e069e81930be
+- !<SceneObject/999dfd75-eeac-48ec-80d6-959c47aeafab>
+  PrefabRemaps:
+    []
+  Name: Teddy____PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -39.666702, z: -185.613419}
+    rotation: {x: 0.000000, y: 1.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0f510007-1d9e-4fee-b08c-030c2587f54b
+  Components:
+    []
+- !<SceneObject/ac07da88-161a-477b-b8d0-6e2f6bbdce5a>
+  PrefabRemaps:
+    []
+  Name: teddy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5dbbe5c9-fa29-4e6b-ac5f-e9d4697ae6c1
+  Components:
+    []
+- !<ObjectPrefabAssetData/f857adcd-6e22-4fea-a5d9-6b0e4e7d2606>
+  SourceRemaps:
+    - 53c4692d-12a8-40a2-954b-4616444261f7: 5dbbe5c9-fa29-4e6b-ac5f-e9d4697ae6c1
+    - 6515a5e7-80c7-4039-ac8d-31ada0aa1729: 999dfd75-eeac-48ec-80d6-959c47aeafab
+    - b7f66f82-191f-49b4-a489-c0cfb8d97ad0: 3e283716-bcbd-4664-ad49-e069e81930be
+    - efe0e2b0-1ba2-426b-b8f8-a830e6c6a05c: ac07da88-161a-477b-b8d0-6e2f6bbdce5a
+    - fe1eaeb9-d53a-47ea-b48d-d4c64171cded: 0f510007-1d9e-4fee-b08c-030c2587f54b
+  SourceState: !<own> 54a7f1b5-cefb-48d2-9895-151c7fe383b5
